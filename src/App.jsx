@@ -17,6 +17,8 @@ const App = () => {
    onChange={(e)=> setSearch(e.target.value)} />
 </div>
 </div>
+
+
 <table className="table table-striped mx-5">
   <thead>
     <tr className="table-dark px-5" >

@@ -1,0 +1,66 @@
+/* App.css */
+
+/* General container styles */
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  /* Center the content on larger screens */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    /* On smaller screens, reduce padding and font size */
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    th, td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* On very small screens, stack the table for better readability */
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    /* Adjust input field width */
+    .input-group {
+      width: 100%;
+    }
+  
+    th, td {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    h1 {
+      font-size: 1.3rem;
+    }
+  }
+  

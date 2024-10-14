@@ -598,5 +598,11 @@ export const data =[{
     "last_name": "Fearney",
     "email": "efearney2r@bravesites.com",
     "phone": "691-361-8235"
+  }, {
+    "id": 101,
+    "first_name": "Ashraqo",
+    "last_name": " Abdirahman",
+    "email": "ashraqo@hawo.com",
+    "phone": "614261236"
   }]
   
